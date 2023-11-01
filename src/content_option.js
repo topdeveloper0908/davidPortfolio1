@@ -1,142 +1,131 @@
-const logotext = "JOHN";
+const logotext = "David";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "David Veselinvoic",
+    description: "I’m David Veselinvoic, Senior Full stack Web & Mobile devloper",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m David Veselinvoic",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Senior Full Stack Developer",
+        second: "With +7 years of Experience",
+        third: "Website & Mobile Apps Developer",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Professional Full Stack Developer with 7+ years of experience in web development and software engineering",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About me",
+    aboutme: "Experienced & Tested Full-Stack Web & Mobile Developer adept in all stages of advanced web & mobile development with profound knowledge",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "Senior Backend Developer",
+        where: "Don-Themes, Chicago",
+        date: "2019 - 2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Backend Developer",
+        where: "Akveo Inc, Colorado",
+        date: "2018 - 2019",
+    },  
+    {
+        jobtitle: "Senior Frontend Developer",
+        where: "DeanInfo Tech, Florida",
+        date: "2015 - 2018",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Frontend Developer",
+        where: "INEXTURE Solutions, California",
+        date: "2014 - 2015",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
+const skills = [
     {
-        name: "Djano",
-        value: 85,
+        name: "React",
+        value: 95,
     },
     {
         name: "Javascript",
+        value: 90,
+    },
+    {
+        name: "PHP",
+        value: 90,
+    },
+    {
+        name: "Laravel",
+        value: 85,
+    },
+    {
+        name: "Python",
+        value: 85,
+    },
+    {
+        name: "Djano",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Flutter",
+        value: 95,
     },
     {
-        name: "Jquery",
-        value: 85,
-    },
+        name: "React Native",
+        value: 90,
+    }    
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Development",
+        description: "I create modern, responsive, mobile friendly business websites that are built to sell your products and services. My Development is excited to earn your business.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile App Development",
+        description: "Experience in Mobile Application Operating systems like iOS and Android. Skilled, motivated and product-oriented mobile application developer with strong Object Oriented Programming Concepts and design skills",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "UI / UX Design",
+        description: "Support innovative, creative, passionate UI/UX and Product Design for user-centric, user-oriented designs with the best screen-based experiences",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/seo.png",
+        description: "Grow their online presence through SEO by implementing a comprehensive strategy.",
+        link: "https://www.kevinsnaturalfoods.com/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/salesforce.png",
+        description: "As a five-time Certified Salesforce Developer Working on full-time Salesforce Consultant, Finish complex orgs .",
+        link: "https://www.portal.redenes.org/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/zoho.png",
+        description: "Designing Custom Business Applications to automate business.",
+        link: "https://www.connectingcolours.nl/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/virtual-voice-assistant.png",
+        description: "Virtual Voice Assistant is a project that utilizes machine learning and natural language processing to control their devices using voice commands.",
+        link: "https://aquaregiafest.com",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/riode_preview.jpg",
+        description: "E-commerce website frontend work to choose people their favorite design of product and redirect to flipkart shopping site.",
+        link: "https://d-themes.com/react/riode/demo-1/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "/assets/images/portfolio-2.jpg",
+        description: "Mingoo-Food is a food delivery Platform that connects you to your favourite restaurants.",
+        link: "https://play.google.com/store/apps/details?id=com.mingoofood.findnearrestaturant",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "topdeveloper0908@gmail.com",
     YOUR_FONE: "(555)123-4567",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
